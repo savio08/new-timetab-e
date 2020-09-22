@@ -1,0 +1,100 @@
+body{
+  background-color: #cffffe;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Shadows Into Light', cursive;
+  padding: 3% 0;
+  text-align: center;
+}
+
+p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5rem;
+  color: red;
+  padding: 2% 0 0 2%;
+}
+
+a {
+  font-size: 1.4rem;
+}
+
+.classroom-image {
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.table {
+  width: 95%;
+  text-align: center;
+  margin: auto;
+}
+
+.middle-container {
+  padding-bottom: 6%;
+}
+
+.info{
+  float: right;
+  padding-right: 2%;
+  font-size: 1.2rem;
+  color: #52575d;
+}
+
+.village-img{
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 10%;
+}
+
+.footer-text{
+  color: #8f8f8f;
+  text-align: center;
+  padding-top: 10%;
+}
+
+@media (max-width: 1024px)
+{
+  h1 {
+    font-size: 1.5rem;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 3% 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 2% 0 0 2%;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .table {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .village-img{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 10%;
+  }
+
+  .footer-text{
+    font-size: 1rem;
+    color: #8f8f8f;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .info{
+    float: right;
+    padding-right: 2%;
+    font-size: 0.7rem;
+    color: #52575d;
+  }
+}
